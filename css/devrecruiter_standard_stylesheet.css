@@ -1,0 +1,395 @@
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800italic,700italic,600italic,400italic,300italic,800,700,600,400,300);
+
+/*----------- CORE ---------------*/
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, abbr, article, aside, command, details, figcaption, figure, footer, header, hgroup, mark, meter, nav, output, progress, section, summary, time {
+    font-family: 12px/18px 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 0.07em;
+}
+
+h3.devrec-content-view {
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+}
+a#add-record {
+    cursor: pointer;
+    margin-left: 25px;
+    text-decoration: none;
+    text-transform: none;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #666;
+    font-size: 1.0em;
+}
+iframe {
+    background-color: #FFF;
+    height: 670px;
+}
+li.gbt {
+    display: inline;
+    background-color: #333;
+    line-height: 1.5em;
+    height: 20px;
+}
+li.gbt a {
+    font-size: 13px;
+    text-decoration: none !important;
+    height: 20px;
+}
+li.gbt:hover {
+    background-color: #666;
+    border-top: 2px solid #900;
+    height: 19px;
+}
+li.devrec_spacer {
+    display: inline;
+    padding-left: 2px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+h3 {
+    font-size: 11pt;
+}
+li {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0.4em;
+}
+h1 {
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    color: #666;
+}
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+}
+label.devrec-form-label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+}
+label[for="profile"] {
+    padding-bottom: 5px;
+}
+table.devrec-table {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    border: 1px solid #CCC;
+    padding: 20px;
+    background-color: #FFF;
+}
+
+/*----------- CLASSES ---------------*/
+
+/*{ position:absolute; width:800px; left:50%; top:0px; margin:0px 0px 0px -400px; }*/
+.dgs-text-shadow {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.dgs-globalNav-new {
+    background-image: -moz-linear-gradient(center top , rgba(0, 0, 0, 0.2) 0pt, transparent 5%, transparent 97%, rgba(0, 0, 0, 0.45) 100%) repeat scroll 0 0%, -moz-linear-gradient(left center , rgba(0, 0, 0, 0.2) 0pt, transparent 0.2%, transparent 99.8%, rgba(0, 0, 0, 0.2) 100%) repeat scroll 0 0%, no-repeat scroll 50% 50%, -moz-linear-gradient(center bottom , #666666 0pt, #5E5E5E 50%, #707070 51%, #808080 100%) repeat scroll 0 0 transparent;
+}
+
+.dgs-main-body-div {
+    border-radius: 5px 5px 5px 5px;
+    bottom: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    left: 50%;
+    margin-left: -400px;
+    position: fixed;
+    top: 80px;
+    width: 800px;
+    z-index: 21;
+}
+.dgs-div-normal {
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    margin-left: -290px;
+    width: 580px;
+    height: 2.5em;
+    background-color: #fff;
+    padding: 20px;
+    line-height: 1.145em;
+    font-size: 1.145em;
+    display: inline;
+}
+
+.dgs-main-body-div ul li a {
+    font-weight: 700;
+    font-size: 1.1em;
+    color: #ccc;
+    text-decoration: none;
+}
+.dgs-main-body-div ul li {
+    list-style-type: none;
+    list-style-image: none;
+}
+.devrec-content-view {
+    display: inline-table;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+    line-height: 1.5em;
+    vertical-align: middle;
+    font-weight: 300;
+    text-align: left;
+    margin: 5px 5px 5px 5px;
+    left: 10em;
+}
+.devrec-content-view-container {
+    display: inline-table;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+    line-height: 1.5em;
+    vertical-align: middle;
+    text-align: left;
+    margin: 10px 0px 10px 0px;
+}
+.devrec-prime-container {
+    position: absolute;
+    width: 1000px;
+    left: 50%;
+    top: 40px;
+    margin-left: -450px;
+    margin-top: 30px;
+    padding: 0px;
+    background-color: #FFF;
+}
+.dgs-top-banner {
+    position: fixed;
+    width: 105%;
+    height: 45px;
+    background-color: #486384;
+    background-image: -moz-linear-gradient(center top , #9AA9BB 0%, #486384 100%);
+    margin: 0px -30px 40px -30px;
+    background-position: center;
+    background-repeat: repeat-x;
+    font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    z-index: 20;
+    top: 0;
+    padding-top: 0px;
+    border-bottom: #666 2px solid;
+    outline: #000 solid 3px;
+}
+.dgs-top-banner p {
+    margin-left: 10%;
+    font-size: 0.7em;
+    color: #fff;
+    margin-top: 0.5em;
+    line-height: 1.5em;
+}
+.dgs-top-banner p a {
+    color: #fff;
+    font-size: 0.9em;
+    text-decoration: none;
+    cursor: pointer;
+}
+.dgs-bottom-banner-old {
+    position: fixed;
+    width: 105%;
+    height: 35px;
+    background-image: url(/js/jquery_ui/css/custom-theme/images/ui-bg_glass_75_e6e6e6_1x400.png);
+    margin: 0px -30px 0px -30px;
+    background-position: center;
+    background-repeat: repeat-x;
+    font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 20;
+    line-height: 1.5em;
+    bottom: 0;
+}
+.dgs-top-banner.dgs-logo {
+font-size: 1.8em;
+color: #ffffff;
+margin-left: 150px;
+}
+.dgs-bottom-banner {
+    position: fixed;
+    width: 105%;
+    height: 52px;
+    background-color: #486384;
+    background-image: -moz-linear-gradient(center top , #9AA9BB 0%, #445C7A 100%);
+    margin: 0px -30px 0px -30px;
+    background-position: center;
+    background-repeat: repeat-x;
+    font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 20;
+    color: #fff;
+    line-height: 1.5em;
+    bottom: 0;
+}
+.dgs-bottom-banner p {
+    margin-left: 33%;
+    font-weight: 700 !important;
+    font-size: 0.7em;
+    color: #fff;
+    margin-top: 0.5em;
+}
+.dgs-bottom-banner p a {
+    font-weight: 700 !important;
+    color: #FFF;
+    text-decoration: underline;
+}
+.dgs-loc-bottom-banner {
+    position: fixed;
+    width: 105%;
+    height: 28px;
+    background-color: #486384;
+    background-image: -moz-linear-gradient(center top , #9AA9BB 0%, #486384 100%);
+    margin: 0px -30px 0px -30px;
+    background-position: center;
+    background-repeat: repeat-x;
+    font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 20;
+    line-height: 1.5em;
+    bottom: 0;
+    border-top: 2px solid #666;
+    outline: #000 2px solid;
+    padding-left: 50%;
+}
+.dgs-loc-bottom-banner p {
+    margin-left: -200px;
+    font-weight: 700 !important;
+    font-size: 0.7em;
+    color: #D0D8E0;
+    margin-top: 0.5em;
+    width: 400px;
+    text-align: center;
+}
+.dgs-loc-bottom-banner p a {
+    font-size: 0.9em;
+    color: #D0D8E0;
+    text-decoration: underline;
+}
+.dgs-fill {
+    height: 100%;
+    position: inherit;
+}
+.dgs-div-page-first {
+    background: #fff url("http://dl.dropbox.com/u/12619073/images/pagecorner.png") no-repeat 0% 0%;
+}
+.dgs-div-page-last {
+    background: url("http://dl.dropbox.com/u/12619073/images/leftpageslice.png") repeat-y 0% 0%;
+}
+.dgs-main-body-div-border {
+    position: absolute;
+    width: 800px;
+    left: 50%;
+    top: 0px;
+    margin: 0px 0px 0px -400px;
+    padding: 5px;
+    border: 1px solid #CCC;
+}
+.dgs-div {
+    position: absolute;
+    width: 800px;
+    left: 50%;
+    top: 0px;
+    margin: 0px 0px 0px -400px;
+    padding: 5px;
+    background-color: #FFF;
+}
+.dgs-div form {
+    margin: 0px 0px 0px 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+.dgs-div form input {
+    font-family: 'Open Sans', sans-serif;
+}
+.devrec-nav {
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #CCC;
+}
+.devrec-nav a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    color: #666;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+.devrec-nav-button {
+    margin: 0px 40px 20px 5px;
+    position: relative;
+}
+.dgs-fixed-div {
+    position: fixed;
+    width: 50px;
+    left: 100%;
+    top: 0px;
+    margin: 0px -50px 0px 0px;
+    padding: 5px;
+}
+.dgs-fixed-border-div {
+    position: fixed;
+    width: 50px;
+    height: 450px;
+    left: 100%;
+    top: 0px;
+    margin: 0px 0px 0px -80px;
+    padding: 5px;
+    border: 4px solid #CCC;
+    direction: ltr;
+    background-color: #E6F2F2;
+}
+.dgs-carbon-bckgrnd {
+    background-image: url("http://dl.dropbox.com/u/12619073/images/carbon_slice_for_repeat.png");
+    background-repeat: repeat;
+}
+
+.devrec-manage-cands {
+    position: relative;
+}
+.devrec-table th {
+    padding: 0px 15px 0px 15px;
+    border-right: 1px solid #CCC;
+}
+.devrec-table td {
+    border-bottom: 1px solid #CCC;
+}
+.dgs-plain-background {
+    background-color: #fff !important;
+}
+
+/*----------- IDs ---------------*/
+
+#manage-background {
+    background-color: #FFF !important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+#layerDiv {
+    opacity: 0.9;
+    width: 110%;
+    height: 110%;
+    margin-left: -10px;
+    margin-top: -10px;
+    background-color: #000;
+    position: fixed;
+}
+#add-candidates {
+    background-color: #FFF;
+}
+#manage {
+    background-color: #FFF;
+}
