@@ -1,0 +1,44 @@
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.all.css ::::: */
+
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.base.css ::::: */
+
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.core.css ::::: */
+
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.accordion.css ::::: */
+
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.autocomplete.css ::::: */
+
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.button.css ::::: */
+
+button.ui-button::-moz-focus-inner { border: 0pt none; padding: 0pt; }
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.datepicker.css ::::: */
+
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.dialog.css ::::: */
+
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.menu.css ::::: */
+
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.menubar.css ::::: */
+
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.progressbar.css ::::: */
+
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.resizable.css ::::: */
+
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.selectable.css ::::: */
+
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.slider.css ::::: */
+
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.spinner.css ::::: */
+
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.tabs.css ::::: */
+
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.tooltip.css ::::: */
+
+/* ::::: http://view.jqueryui.com/master/themes/base/jquery.ui.theme.css ::::: */
+
+/* ::::: http://view.jqueryui.com/master/demos/demos.css ::::: */
+
+body { font-size: 62.5%; }
+body { font-family: "Trebuchet MS","Helvetica","Arial","Verdana","sans-serif"; }
+div.demo { padding: 12px; font-family: "Trebuchet MS","Arial","Helvetica","Verdana","sans-serif"; }
+div.demo-description { clear: both; padding: 12px; font-family: "Trebuchet MS","Arial","Helvetica","Verdana","sans-serif"; font-size: 1.3em; line-height: 1.4em; }
+label { display: inline-block; width: 5em; }
