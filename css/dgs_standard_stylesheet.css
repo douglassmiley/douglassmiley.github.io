@@ -177,7 +177,7 @@ pre, code, tt, kbd, samp, .mw-code {
 	word-spacing: -1px;
 }
 .dgs-main-body-div ul li {
-	list-style-type: none;
+	list-style-type: disc;
 	list-style-image: none;
 	word-spacing: -1px;
 }
