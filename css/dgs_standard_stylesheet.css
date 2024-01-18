@@ -1,6 +1,6 @@
 /*==========================================================================================*/
 /*	@author     Douglas Grant Smiley														*/
-/*	@Dropbox 	Public base URL	https://dl.dropboxusercontent.com/u/12619073				*/
+/*	@GitHub 	Public base URL	https://douglassmiley.github.io								*/
 /*											       											*/
 /*==========================================================================================*/
 
@@ -163,7 +163,7 @@ pre, code, tt, kbd, samp, .mw-code {
     top: 40px;
     width: 100%;
     z-index: 21;
-	max-width:
+	max-width: 1440px;
 }
 .dgs-main-body-div div#tabs {
 	border-radius: 5px 5px 5px 5px;
