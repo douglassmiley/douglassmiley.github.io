@@ -158,10 +158,11 @@ pre, code, tt, kbd, samp, .mw-code {
     width: 75%;
     z-index: 21; */
 	border-radius: 5px;
+    margin-left: -40%;
     min-width: 220px;
     position: relative;
     top: 40px;
-    width: 100%;
+    width: 75%;
     z-index: 21;
 	max-width: 1440px;
 }
