@@ -159,13 +159,13 @@ pre, code, tt, kbd, samp, .mw-code {
     z-index: 21; */
 	border-radius: 5px;
     left: 50%;
-    margin-left: -40%;
-    min-width: 220px;
+    margin-left: -25%;
+    min-width: 500px;
     position: relative;
     top: 40px;
-    width: 75%;
+    width: 50%;
     z-index: 21;
-	max-width: 1440px;
+	/* max-width: 1200px; */
 }
 .dgs-main-body-div div#tabs {
 	border-radius: 5px 5px 5px 5px;
@@ -225,7 +225,7 @@ pre, code, tt, kbd, samp, .mw-code {
 }
 .dgs-content-box {
     position: relative;
-    width: 96%;
+    width: 100%;
 }
 .dgs-content-box div#section {
     border: 1px solid #999999;
