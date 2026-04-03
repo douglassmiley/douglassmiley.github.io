@@ -17,7 +17,7 @@ html, body, div {
 	background-color: #ffffff;
 }
 html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, abbr, article, aside, command, details, figcaption, figure, footer, header, hgroup, mark, meter, nav, output, progress, section, summary, time {
-	font: 13px/18px Helvetica,Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+	font: 13px/18px Helvetica,Helvetica Neue,Arial,sans-serif;
 	line-height: 18px;
 	color: #333337;
 }
@@ -247,7 +247,7 @@ pre, code, tt, kbd, samp, .mw-code {
 	background-image: -moz-linear-gradient(center top, #9AA9BB 0%, #486384 100%);
 	border-radius: 6px 6px 6px 6px;
 	font-size: 0.9em;
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: Helvetica,Helvetica Neue,Arial,sans-serif;
 	z-index: 10000000;
 	line-height: 1.5em;
 	bottom: 0px;
